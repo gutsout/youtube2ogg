@@ -9,8 +9,8 @@ from time import sleep
 if len(sys.argv) > 1 and sys.argv[1] != '':
     url = str(sys.argv[1])
 else:
-    print("""[i] Usage: python3 yt2mp3.py URL        
-[i] Example: python3 yt2mp3.py https://www.youtube.com/watch?v=example""")
+    print("""[i] Usage: python3 youtube2ogg.py URL        
+[i] Example: python3 youtube2ogg.py https://www.youtube.com/watch?v=example""")
     exit(1)
 
 def download_youtube_mp3(url, output_path='./'):
