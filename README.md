@@ -5,17 +5,20 @@ Quick YouTube to Ogg Vorbis Converter. Provide a YouTube link and receive compre
 
 1. Clone this Repository
 ```
-git clone https://github.com/yourusername/youtube2ogg.git
+git clone https://github.com/gutsout/youtube2ogg.git
 cd youtube2ogg
 ```
 
 2. Install Python3
-Ensure you have Python 3 installed on your system. You can download it from python.org.
 
-3. Install FFmpeg Executable:
+Ensure you have Python 3 installed on your system. You can download it from python.org.
+[How to Install Python](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
+
+4. Install FFmpeg Executable:
 You need to install the actual ffmpeg executable, which yt-dlp uses to process audio files.
 
 **On Windows:**
+
 [FFmpeg Installation Guide](https://phoenixnap.com/kb/ffmpeg-windows)
     
 **On macOS:**
