@@ -11,8 +11,9 @@ cd youtube2ogg
 
 ### 2. Install Python3
 
-Ensure you have Python 3 installed on your system. You can download it from python.org.
-[How to Install Python](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
+Ensure you have Python3 installed on your system. You can download it from python.org.
+
+[How to Install Python3 on Windows 10](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
 
 ### 3. Install FFmpeg Executable:
 You need to install the actual ffmpeg executable, which yt-dlp uses to process audio files.
