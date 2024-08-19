@@ -37,7 +37,7 @@ def download_youtube_mp3(url, output_path='./'):
         return None
 
 # Credit to Klairm (https://github.com/Klairm)
-def converter(mp3_filename, target_sample_rate=16000):
+def converter(mp3_filename, target_sample_rate=22000):
     if mp3_filename and os.path.exists(mp3_filename):
         name = os.path.splitext(mp3_filename)[0]
         with PixelSpinner(f'[.mp3 -> .ogg] {name} Processing... ') as bar:
