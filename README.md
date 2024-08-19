@@ -1,6 +1,6 @@
 # youtube2ogg
 
-Quick YouTube to Ogg Vorbis Converter. Provide a YouTube link and receive compressed to 16kHZ `.ogg` file that's ready to go inside your mission file.
+Quick YouTube to Ogg Vorbis Converter. Provide a YouTube link and receive compressed to 22kHz `.ogg` file that's ready to go inside your mission file.
 ## How to Use
 
 1. Clone this Repository
