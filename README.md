@@ -1,6 +1,6 @@
 # youtube2ogg 📹
 
-Quick YouTube video to Ogg Vorbis Converter. Instead of downloading YouTube videos from sketchy websites, using Audacity to convert and compress `.mp3` to `.ogg` - provide a YouTube link and receive compressed to 22kHz `.ogg` file that is ready to go inside your mission file.
+Quick YouTube video to Ogg Vorbis Converter. Instead of downloading YouTube videos from sketchy websites, using Audacity to convert and compress `.mp3` to `.ogg` - provide a YouTube link to script and receive compressed to 22kHz `.ogg` file that is ready to go inside your mission file.
 
 ## How to Configure 🧰
 ### 1. Clone this Repository 
@@ -22,12 +22,6 @@ You need to install the actual ffmpeg executable, which **yt-dlp** uses to proce
 [FFmpeg Installation Guide](https://phoenixnap.com/kb/ffmpeg-windows)
 
 **OR** download FFmpeg and copy contents of `bin/` directory to the script directory.
-    
-**On macOS:** (not tested)
-* Use Homebrew to install ffmpeg:
-```
-brew install ffmpeg
-```
 
 **On Linux:**
 * Use your package manager to install ffmpeg:
@@ -38,7 +32,6 @@ sudo apt-get install ffmpeg
 ### 4. Install Python Dependencies:
 Navigate to the project directory and install the required Python packages:
 ```
-# Install requirements
 pip install -r requirements.txt
 ```
   
