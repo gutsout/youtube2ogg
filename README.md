@@ -14,11 +14,10 @@ Ensure you have Python 3 installed on your system. You can download it from pyth
 
 3. Install FFmpeg Executable:
 You need to install the actual ffmpeg executable, which yt-dlp uses to process audio files.
-**On Windows:**
-* Download the latest static build of FFmpeg from the official FFmpeg website.
-* Extract the contents and place the `bin` folder somewhere on your system (e.g., `C:\ffmpeg\bin`).
-* Add the path to the bin folder to your system's **PATH** environment variable.
 
+**On Windows:**
+[FFmpeg Installation Guide](https://phoenixnap.com/kb/ffmpeg-windows)
+    
 **On macOS:**
 * Use Homebrew to install ffmpeg:
 ```
